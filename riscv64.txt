@@ -1,0 +1,13 @@
+[binaries]
+c = 'riscv64-unknown-elf-gcc'
+cpp = 'riscv64-unknown-elf-g++'
+ar = 'riscv64-unknown-elf-ar'
+ld = 'riscv64-unknown-elf-ld'
+strip = 'riscv64-unknown-elf-strip'
+exe_wrapper = 'qemu-system-riscv64 -machine virt -nographic -kernel'
+
+[host_machine]
+system = 'macos'
+cpu_family = 'arm64'
+cpu = 'arm64'
+endian = 'little'
